@@ -1,13 +1,13 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <div>订单列表</div>
 </template>
+
 <script>
 export default {
-    name:'App'
+   name:'Order'
 }
 </script>
+
 <style lang='less' scoped>
 
 </style>

@@ -1,13 +1,15 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+      数据报表
   </div>
 </template>
+
 <script>
 export default {
-    name:'App'
+   name:'Reports'
 }
 </script>
+
 <style lang='less' scoped>
 
 </style>
