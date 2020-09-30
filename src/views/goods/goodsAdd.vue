@@ -244,6 +244,7 @@ export default {
                   return this.$message.error('请输入完整的商品信息!')
                 }
                 this.goodsForm.goods_cat=this.cateList.join(',')
+               console.log(this.goodsForm.goods_cat);
                 // 静态或动态属性参数
                 const arr=[
                   ...this.manyCategoriesList,

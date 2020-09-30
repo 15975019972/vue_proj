@@ -5,7 +5,7 @@
   <el-header>
      <div class="h-login">
        <img src="~assets/logo.png" alt="">
-       <span>黑马后台</span>
+       <span>小v后台</span>
      </div>
      <el-button size="mini" @click="loginOut">退出</el-button>
   </el-header>

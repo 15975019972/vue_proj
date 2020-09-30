@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import axios from 'axios'
+import _ from  'lodash'
 
 // 解决双击router.push 报错问题
 import Router from 'vue-router'
@@ -10,6 +11,8 @@ const routerPush = Router.prototype.push
 Router.prototype.push = function push(location) {
   return routerPush.call(this, location).catch(error=> error)
 }
+
+// 引入echars可视化
 
 // 引入富文本编辑器
 
