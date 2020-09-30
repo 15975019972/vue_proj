@@ -23,12 +23,27 @@ import {
     Select,
     Option,
     Tree,
-    Tag
+    Tag,
+    Alert,
+    Step,
+    Steps,
+    Tabs,
+    TabPane,
+    Cascader,
+    Checkbox,
+    Upload
 
 } from 'element-ui'
 
 const element={
     install:function(Vue){
+        Vue.use(Upload)
+        Vue.use(Checkbox)
+        Vue.use(Cascader)
+        Vue.use(TabPane)
+        Vue.use(Tabs)
+        Vue.use(Step)
+        Vue.use(Steps)
         Vue.use(Button),
         Vue.use(Input),
         Vue.use(Form),
@@ -54,6 +69,7 @@ const element={
         Vue.use(Option)
         Vue.use(Tree)
         Vue.use(Tag)
+        Vue.use(Alert)
     }
 }
 

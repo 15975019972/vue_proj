@@ -12,7 +12,8 @@ const GoodsList=()=>import('views/goods/GoodsList.vue')
 const Params=()=>import('views/goods/Params.vue')
 const Categories=()=>import('views/goods/Categories.vue')
 const Order=()=>import('views/order/Order.vue')
-const Report=()=>import('../views/reports/Reports.vue')
+const Report=()=>import('views/reports/Reports.vue')
+const GoodsAdd=()=>import('views/goods/goodsAdd.vue')
 
 
 const routes = [
@@ -45,7 +46,7 @@ const routes = [
           component:Rights
         },{
           path:'/goods',
-          component:GoodsList
+          component:GoodsList,
         },{
           path:"/params",
           component:Params
@@ -58,6 +59,10 @@ const routes = [
         },{
           path:'/reports',
           component:Report
+        },
+        {
+          path:"/goods/add",
+          component:GoodsAdd
         }
       ]
    }
