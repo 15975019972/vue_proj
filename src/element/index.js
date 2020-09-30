@@ -31,12 +31,16 @@ import {
     TabPane,
     Cascader,
     Checkbox,
-    Upload
+    Upload,
+    Timeline,
+    TimelineItem
 
 } from 'element-ui'
 
 const element={
     install:function(Vue){
+        Vue.use(Timeline)
+        Vue.use(TimelineItem)
         Vue.use(Upload)
         Vue.use(Checkbox)
         Vue.use(Cascader)
